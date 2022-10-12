@@ -75,6 +75,19 @@ main > img {
     gap: 20px;
 }
 
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category > img {
+    margin-top: 30px;
+    margin-bottom: -40px;
+    width: 150px;
+}
+
 .scroll {
     height: 400px;
     display: flex;
@@ -165,6 +178,10 @@ footer > a:hover {
         padding-left: 20px;
     }    
 
+    .logo-disney-plus img, .logo-netflix img {
+        width: 50px;
+    }
+
     main > img {
         margin-top: 120px;
         margin-bottom: -30px;
@@ -176,6 +193,17 @@ footer > a:hover {
 
     .header-logo-disney-plus, .header-logo-netflix {
         width: 20%;
+    }
+
+    .disney-plus > a > img, .netflix > a > img {
+        width: 100px;
+    }
+
+    .category > img {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        width: 80px;
     }
 
     .scroll > a > img {
